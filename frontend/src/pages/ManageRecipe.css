@@ -1,0 +1,78 @@
+/* src/pages/ManageRecipe.css */
+.manage-recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  header {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  /* Menyelaraskan secara vertikal */
+    justify-content: space-between;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .add-recipe-button {
+    padding: 10px 20px;
+    margin: 40px;
+    margin-right: 400px;
+    background-color: #66a3ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 30px;
+
+  }
+  
+  main {
+    width: 80%;
+    
+  }
+  
+  .recipe-table {
+    font-size: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .edit-button, .delete-button {
+    font-size: 30px;
+
+    padding: 10px 15px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #ffcc66;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #ff6666;
+    color: #fff;
+  }
+  
